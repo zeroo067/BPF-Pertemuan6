@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>Selamat Datang!</h1>
-    <h2>Ini halaman profil Mahasiswa</h2>
+    <h2>Ini halaman profil Mahasiswa Saat ini</h2>
 </body>
 </html>
