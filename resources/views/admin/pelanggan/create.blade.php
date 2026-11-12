@@ -79,7 +79,7 @@
                 </div>
             </div>
             <ul class="nav flex-column pt-3 pt-md-0">
-                <li class="nav-item  active ">
+                <li class="nav-item {{ request()->routeIs('pelanggan.*') ? 'active' : '' }}">
 		            <a href="" class="nav-link">
 		                <span class="sidebar-icon">
 		                    <svg class="icon icon-xs me-2" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -89,6 +89,7 @@
 		                <span class="sidebar-text">Pelanggan</span>
 		            </a>
 		        </li>
+                
                 <li class="nav-item  active ">
                     <a href="{{ route('dashboard') }}" class="nav-link">
                         <span class="sidebar-icon">
